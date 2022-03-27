@@ -1,0 +1,94 @@
+*	{
+padding:0;
+margin:0;
+box-sizing: border-box;
+}
+
+h1{
+text-align: center;
+width: 100%;
+font-size: 48px;
+
+}
+body{
+background: black;
+}
+main {
+width: 70%;
+background: white;
+padding: 50px;
+margin: auto;
+display: flex;
+flex-wrap: wrap;
+
+
+}
+.photo:hover{
+transform: scale(1.08) rotate(2.3deg);
+box-shadow: 0 0 30px 1px rgba(0, 0, 0, 1.7);
+
+
+
+
+}
+
+.photo{
+	transition: all;
+	transition: width 2s, height 2s, background-color 2s, transform 2s;
+	box-shadow: 0 0 20px 1px rgba(10, 0, 0, 1.1) ;
+width: calc(50% - 40px)	;
+height: calc((35vw - 40px) / 16*9) ;
+background-color: blue;
+margin: 20px ;
+background-size: cover;
+background-size: contain;
+}
+.photo0{
+background-image: url(../img/1.jpg);
+}
+.photo1{
+background-image: url(../img/2.jpg);
+}
+.photo2{
+	background-image: url(../img/3.jpg);
+}
+.photo3{
+background-image: url(../img/4.jpg);
+}
+.photo4{
+	background-image: url(../img/5.jpg);
+}
+.photo5{
+	background-image: url(../img/6.jpg);}
+
+.photo6{
+
+	background-image: url(../img/7.jpg);
+}
+.photo7{
+	background-image: url(../img/8.jpg);
+}
+.photo8{
+	background-image: url(../img/9.jpg);
+}
+.photo9{
+	background-image: url(../img/10.jpg);
+}
+.photo10{
+	background-image: url(../img/11.jpg);
+}
+.photo11{
+	background-image: url(../img/12.jpg);
+}
+
+}
+.ts1{color: red;
+
+	                 text-align: justify;}
+
+@font-face{
+
+font-family:TitilliumWeb ;
+src: url(../font/TitilliumWeb-Black.ttf);
+
+}
